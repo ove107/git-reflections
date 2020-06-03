@@ -30,3 +30,9 @@ git make use of initial commits and the end commit to ensure what code lines mus
 removed from them. The diagrams here help us understand how under the hood every thing works.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans: Where automatic merging assists you to ease the merging between two different branch heads by automatically figuring out what files are changed and what needs to be kept in the merged repo, by making it out via analysing the files initial commit and the changes made accross various commits in two branches.
+
+Manual merge comes under the case when there is a merge conflict ie where two fies are modified at same lines so now git cant figure it out own its own AS TO WHICH CHANGES TO  be kept and which all need to be discarded.
+
+
