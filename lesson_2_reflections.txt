@@ -21,7 +21,12 @@ Ans: well branching come into effect when addding new features or experimenting 
 
 How do the diagrams help you visualize the branch structure?
 Ans: The diagrams here give a visual representation of git working under the hood for us.
+What is the result of merging two branches together? Why do we represent it in the diagram What is the result of merging two branches together? Why do we represent it in the diagram the way we do?the way we do?
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans:well merging two branches together merges the codes the changes or the features that were in both of them
+git make use of initial commits and the end commit to ensure what code lines must be added and what need to be
+removed from them. The diagrams here help us understand how under the hood every thing works.
 
 
