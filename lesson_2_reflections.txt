@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+Ans: A git repository is initialised in the directory in which we are standing and a .git hidden file
+is created. We need to do it as we need to initialise this file so as it can collect the metadat for the files that we are editing
