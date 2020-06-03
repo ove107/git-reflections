@@ -1,3 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
 Ans: A git repository is initialised in the directory in which we are standing and a .git hidden file
 is created. We need to do it as we need to initialise this file so as it can collect the metadat for the files that we are editing
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans: Staging area is an intermediary area between working directory and the git repository it offers a stage for us to review our changes before we make them a snap shot by commiting them to repositories.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+Ans: *I can now use >git diff< to check the differences between files that have been changed but not yet added.
+	 *I can use <git diff --staged< to see the differences between staged files and un staged to confirm that these are
+	 	infact the changes you want to commit.
+	 *I can make use of >git reset --hard< to remove the changes that have been added to the staging area.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans: well branching come into effect when addding new features or experimenting at the code base to modify the exusting nature of your code basee.
+
+
+
+How do the diagrams help you visualize the branch structure?
+Ans: The diagrams here give a visual representation of git working under the hood for us.
+
+
+
+
